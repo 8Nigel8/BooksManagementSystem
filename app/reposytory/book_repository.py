@@ -5,7 +5,7 @@ from uuid import UUID
 from sqlalchemy import text
 
 from app.db.session import get_db
-from app.exceptions.not_found import BookNotFound
+from app.exceptions.book_not_found import BookNotFound
 from app.reposytory.author_repository import AuthorRepository
 from app.schemas.book import BookCreate, BookResponse, BookUpdate
 from app.schemas.enums import GenreEnum

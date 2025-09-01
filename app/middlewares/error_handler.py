@@ -3,7 +3,7 @@ from fastapi.responses import JSONResponse
 from jose import JWTError
 from sqlalchemy.exc import IntegrityError
 
-from app.exceptions.not_found import BookNotFound
+from app.exceptions.book_not_found import BookNotFound
 
 
 async def error_handling_middleware(request: Request, call_next):

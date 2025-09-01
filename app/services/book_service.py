@@ -2,7 +2,7 @@ from abc import ABC
 from uuid import UUID
 import pandas as pd
 
-from app.exceptions.not_found import BookNotFound
+from app.exceptions.book_not_found import BookNotFound
 from app.reposytory.book_repository import BookRepository
 from app.reposytory.author_repository import AuthorRepository
 from app.schemas.author import AuthorCreate
